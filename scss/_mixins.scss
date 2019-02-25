@@ -1,0 +1,20 @@
+@import "variables.scss";
+
+@mixin plainTxt{
+    font-family: $fontTxt;
+    font-weight: $fontWTxt;
+    font-size: $fontSTxt;
+}
+
+@mixin headLines{
+    font-family: $fontTxt;
+    font-weight: $fontWHeadlines;
+    font-size: $fontSHeadlines;
+}
+
+/* $fontDamion: "Damion";
+$fontTxt: "Montserrat";
+$fontWTxt: 600;
+$fontSTxt: 1.05rem;
+$fontWHeadlines: bold;
+$fontSHeadlines: 2.3rem; */
